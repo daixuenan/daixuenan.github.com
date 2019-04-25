@@ -19,3 +19,9 @@
 ```markdown
 查看大图，可双击放大，双指缩放，支持自定义加载。
 ```
+
+[BoardMenu](https://github.com/daixuenan/boardmenu.git)
+
+```markdown
+仿IM聊天面板菜单（没有输入框）
+```
