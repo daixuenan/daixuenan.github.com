@@ -1,27 +1,31 @@
 ## [云古的主页](https://daixuenan.github.io/)
 
-### 已有的项目
+### OpenGL笔记
 
-[BaseDialog](https://github.com/daixuenan/BaseDialog.git)
+[GLSL中文手册](https://blog.csdn.net/xhm01291212/article/details/79270836)
 
+### 未整理的笔记
+
+tips:颜色混合算法
 ```markdown
-封装的系统对话框，代码较简洁，扩展性较好。
+gl_FragColor.xyz = color.rgb * color.a + colorBg.rgb * colorBg.a * (1.0 - color.a);
+gl_FragColor.a = color.a;
 ```
 
-[bottomtablelayout](https://github.com/daixuenan/bottomtablelayout.git)
+tips:顶点着色器 片元着色器 int类型精度不匹配
 
+tips:ortho只做正视投影，无法做相机视角，需要perspective透视投影矩阵
+
+tips:振幅运动
+A是振幅 w是角频率 &是初相位 t是时间
+参考 https://wenku.baidu.com/view/b58f328f6e1aff00bed5b9f3f90f76c661374ca0.html
 ```markdown
-基于系统的底部TableLayou，支持加载网络按钮图标。
+w=PI/2
+x=Asin(wt+&)
 ```
 
-[imageutils](https://github.com/daixuenan/imageutils.git)
-
+tips:电击效果
 ```markdown
-查看大图，可双击放大，双指缩放，支持自定义加载。
+gl_FragColor = vec4(1.0-color.rgb, color.w);
 ```
 
-[BoardMenu](https://github.com/daixuenan/boardmenu.git)
-
-```markdown
-仿IM聊天面板菜单（没有输入框）
-```
