@@ -1,6 +1,7 @@
 ### OpenGL
 
 [GLSL中文手册](https://blog.csdn.net/xhm01291212/article/details/79270836)
+注：该文档部分api在有些版本不兼容
 
 ### 未整理的笔记
 
@@ -26,5 +27,8 @@ tips:电击效果
 ```markdown
 gl_FragColor = vec4(1.0-color.rgb, color.w);
 ```
+
+tips:纹理A外接纹理B旋转缩放保持外接方案
+先计算纹理A外接四边形宽高，再计算宽高比，取较大值做缩放
 
 ### [HOME](https://daixuenan.github.io/)
