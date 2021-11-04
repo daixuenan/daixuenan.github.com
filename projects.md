@@ -1,8 +1,5 @@
 ## [云古的主页](https://daixuenan.github.io/)
 
-### OpenGL
-[OpenGL学习](https://daixuenan.github.io/opengl/index)
-
 ### 已有的项目
 
 [BaseDialog](https://github.com/daixuenan/BaseDialog.git)
