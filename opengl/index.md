@@ -1,6 +1,4 @@
-## [云古的主页](https://daixuenan.github.io/)
-
-### OpenGL笔记
+### OpenGL
 
 [GLSL中文手册](https://blog.csdn.net/xhm01291212/article/details/79270836)
 
@@ -29,3 +27,4 @@ tips:电击效果
 gl_FragColor = vec4(1.0-color.rgb, color.w);
 ```
 
+### [HOME](https://daixuenan.github.io/)
