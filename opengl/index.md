@@ -3,6 +3,9 @@
 [GLSL中文手册](https://blog.csdn.net/xhm01291212/article/details/79270836)
 注：该文档部分api在有些版本不兼容
 
+
+[简介](https://blog.csdn.net/opengl/introduce)
+
 ### 未整理的笔记
 
 tips:颜色混合算法
