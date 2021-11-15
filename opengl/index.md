@@ -34,4 +34,8 @@ gl_FragColor = vec4(1.0-color.rgb, color.w);
 tips:纹理A外接纹理B旋转缩放保持外接方案
 先计算纹理A外接四边形宽高，再计算宽高比，取较大值做缩放
 
+tips:深度检测触发后，纹理将被视为物体，而非颜色。因此即使被透明部分覆盖的内容，也展示不出来，而是显示的黑色。
+这个场景可以利用discard方法 放弃当前透明部分纹理绘制，而是让给后面的纹理绘制。(而对于半透明的颜色不太好处理)
+[参考](https://learnopengl.com/Advanced-OpenGL/Blending)
+
 ### [HOME](https://daixuenan.github.io/)
