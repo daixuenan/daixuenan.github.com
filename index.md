@@ -3,6 +3,9 @@
 ## OpenGL
 [OpenGL学习](https://daixuenan.github.io/opengl/index)
 
+## 学习资料整理
+[学习资料整理](https://daixuenan.github.io/learn/index)
+
 ## 已有的项目
 
 [BaseDialog](https://github.com/daixuenan/BaseDialog.git)
