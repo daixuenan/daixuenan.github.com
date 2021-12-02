@@ -3,8 +3,9 @@
 ## OpenGL
 [OpenGL学习](https://daixuenan.github.io/opengl/index)
 
-## 学习资料整理
-[学习资料整理](https://daixuenan.github.io/learn/index)
+[comment]: <> (## 学习资料整理)
+
+[comment]: <> ([学习资料整理]&#40;https://daixuenan.github.io/learn/index&#41;)
 
 ## 已有的项目
 

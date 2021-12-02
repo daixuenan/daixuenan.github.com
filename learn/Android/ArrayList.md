@@ -6,24 +6,36 @@
 
 ```mermaid
 graph TD
-A(Iterator) --> B(Collection)
-A(Iterator) --> C(ListIterator)
-B --> G(AbstractCollection)
-B --> D(List)
-C --> D(List)
+A(Iterator(接口)) --> B(Collection(接口))
+A --> C(ListIterator(接口))
+B --> G(AbstractCollection(接口))
+B --> D(List(接口))
+C --> D
 D --> E(AbstractList)
 E --> F(ArrayList)
 B --> E
 H[竖向流程图]
 ```
 
-```mermaid
-graph TD
-A[方形] --> B(圆角)
-    B --> C{条件a}
-    C --> |a=1| D[结果1]
-    C --> |a=2| E[结果2]
-    F[竖向流程图]
+### Iterator
+
+迭代器
+
+```markdown
+public interface Iterator<E> {
+
+    boolean hasNext();
+
+    E next();
+
+    default void remove() {
+        throw new UnsupportedOperationException("remove");
+    }
+    default void forEachRemaining(Consumer<? super E> action) {
+    Objects.requireNonNull(action);
+    while (hasNext())
+    action.accept(next());
+}
 ```
 
 ### [HOME](https://daixuenan.github.io/)
