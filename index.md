@@ -5,7 +5,7 @@
 
 [comment]: <> (## 学习资料整理)
 
-[comment]: <> ([学习资料整理]&#40;https://daixuenan.github.io/learn/index&#41;)
+[学习资料整理](https://daixuenan.github.io/learn/index)
 
 ## 已有的项目
 
