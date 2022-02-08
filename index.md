@@ -1,7 +1,7 @@
 ### 云古的主页
 
-## OpenGL
-[OpenGL学习](https://daixuenan.github.io/opengl/index)
+<!-- ## OpenGL -->
+<!-- [OpenGL学习](https://daixuenan.github.io/opengl/index) -->
 
 [comment]: <> (## 学习资料整理)
 
